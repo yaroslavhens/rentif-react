@@ -1,0 +1,498 @@
+
+.autoparkConteiner {
+    background: url('../../image/autoparkimg.jpg') 50% no-repeat;  
+}
+.pricepageConteiner {
+    background: url('../../image/priceimg.jpg') 50% no-repeat;
+}
+.transferkConteiner {
+    background: url('../../image/transfer.jpg') 50% no-repeat;
+}
+.autoparkConteiner,.pricepageConteiner, .transferkConteiner { 
+    width: 100%;
+    height: 70vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+.autoparkConteiner, .transferkConteiner h1 {
+    margin: 0px;
+}
+.allCar {
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.0);
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+.autoparkText, .transferText {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    width: 90%;
+}
+.pricepageText {
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    position: relative;
+    top:16%;
+    left: 5%;
+    width: 90%;
+
+}
+.tranferTextTwoo {
+    background-color: rgb(104, 4, 4);
+    border-radius: 9px;
+    height:auto;
+    width: 40%;
+    font-size:33px;
+    margin-top: 40vh;
+    margin-left: 5%;
+    color: white;
+
+}
+.transfermainbox {
+    width: 95%;
+    margin-top: 80px;
+    margin-left: 8%; 
+}
+.infoordercarimg img {
+width: 100%;
+margin: auto;
+}
+.infoOrderCar {
+    width: 100%;
+    height: 500px;
+     
+}
+.infoordercarimg {
+    width: 45%;
+    margin-top: -30px;
+    float:right;
+    margin-right: 5%;
+    border-radius: 50px;
+    
+}
+.infoordertittlename {
+    margin: 0px;
+}
+.transerinfoblock p {
+    font-size: 19px;
+}
+.transerinfoblock h2  {
+ margin-left: 0px;
+}
+.transferlastp {
+    height: 150px;
+}
+.transerinfoblock h3  {
+    margin-left: 0px;
+   }
+.transfermainbox p {
+     display: inline-block;
+     margin: 0px;
+     
+
+}
+
+.transfersecondprice {
+    width: 15%;
+}
+.trasfertexthotel {
+    width: 30%;
+}
+
+.infoPriceconteiner {
+    width: 90%; 
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px
+
+}
+.infoPriceTittle {
+    background-color: black;
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+.infoPriceTittle li {
+    display: inline-block;
+    color: white;
+    margin-left: 1%;
+    padding: 14px 0px 14px 0px;
+
+}
+.classAuto {
+    width: 10%;
+    
+}
+.whithPayment, .whithOutPayment{
+    width: 12%;
+    text-align: center;
+}
+.payment{
+    width: 5%;
+}
+.modelAuto {
+    width: 40%;
+}
+.noteConteiner {
+    width: 15%;
+}
+.two {
+    display: inline-block;
+    color: rgb(3, 3, 3);
+    margin-left: 1%;
+    height: 100%;
+    
+}
+.infoPriceBoxTwo, .infoPriceBoxThree {  
+    border-top: 1px solid black;
+}
+.infopricemaintextone h1, h2, p, h3 {
+  width:  90%;
+  margin: auto;
+  padding: 10px;
+}
+.infopricemaintextone {
+    margin-bottom: 50px;
+}
+.infopricemaintextone a {
+    color: rgb(250, 0, 0);
+    text-decoration: none;
+    list-style-type: none;
+}
+.listtype {
+  
+    list-style-type: none;
+
+}
+
+.itemCard {
+    display: inline-block;
+    width:40%;
+     cursor: pointer;
+    border-radius: 20px;
+   margin: 10px 10px 10px 0px;
+   margin-left:5%;
+   margin-top: 20px;
+
+}
+.itemCard h1 {
+    margin: 15px 0px 0px 0px ;
+    margin-left: 5%;
+}
+.itemCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.priceCarButton {
+    color:rgb(255, 255, 255) ;
+    width: 30%;
+    background-color: rgb(43, 41, 41);
+    padding: 10px 10px 15px 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin-right: 5%;
+    z-index: 222;
+    float: right;
+    margin-top: 17px;
+}
+
+.CardImage {
+    width: 90%;
+    border-radius: 20px;
+   margin-left: 4%;
+   z-index: -1;
+
+}
+.blockinfobox {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+
+}
+.blockinfobox img {
+    width: 30px;
+}
+.ipeople {
+    margin-left: 3%;
+    width: auto;
+}
+.imanual {
+    width: auto;
+}
+.ifuel  {
+    width: auto;
+}
+.downimginfo img {
+    position: relative;
+    top: 7px;
+}
+
+.infoordertittlename h1 {
+    font-size: 42px;
+    margin: 0px;
+    margin-left: 5%;
+}
+.infoordertittlename {
+    width: 45%;
+    float: left;
+    margin-left: 5%;   
+}
+.blockline {
+    width: 100%;
+    height: 100px;
+}
+
+.listinfoprice {
+    width: 90%;
+    background-color: #333333;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+    padding: 10px 0px 10px 0px;
+   
+}
+
+.listinfopricetwoo {
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    list-style-type: none;
+    text-align: center;
+    width: 89.6%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.infopriceone {
+    display: inline-block;
+    width: 23%;
+}
+
+.infoENG {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -2%;
+}
+.blacklinetwoo {
+    clear: both;
+    height: 2px;
+}
+
+.forminfo {
+     width:30%;
+    float: right;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    margin-right: 4%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+ 
+}
+
+.infolowprice {
+    
+    text-align:  center;
+    background-color: #333333;
+    border: 1px solid black;
+    
+   
+}
+
+.infolowprice p {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.moneyposition {
+    display:  inline-block;
+    font-size: 80px;
+}
+.textposition {
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    top: -20px
+}
+.europosition {
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    top: -40px
+}
+
+.info {
+    width: 54%;
+    float: left;
+    clear: both;
+    margin-left: 2%;
+    
+}
+.info h1 {
+    margin-left: 5%;
+}
+.infolasttext {
+    margin-bottom: 100px;
+}
+.forminfo h1{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+
+}
+
+
+
+
+
+
+
+
+section {
+    width: 960px;
+    margin: 0 auto;
+}
+    .left-block {
+      float: left;
+      width: 70%;
+      background: #333333;
+      height: 100vh;
+    }
+    .right-block {
+      float: right;
+       width: 30%;
+       background: #f1f1f1;
+       height: 100vh;
+    }
+      .sticky {
+        position: sticky;
+        top: 0;
+        right: 0;
+        float: right;
+        width: 100%;
+        text-align: center;
+        background: yellow;
+      }
+    .sticky span {
+          line-height: 200px;
+          font-family: sans-serif;
+          font-weight: bold;
+          padding: 12px 30px;
+          border: 2px solid #000000;
+          font-size: 14px;
+        }
+      
+    
+  
+
+
+
+
+
+@media(max-width: 1200px) {
+    .name {
+        font-size: 21px;
+    }
+    
+    .ipeople, .imanual, .ifuel {
+            font-size: 11px;
+    }
+    .blockinfobox img {
+        width: 15px;
+    }
+    .downimginfo  {
+        font-size: 18px;
+     }
+     .downimginfo img {
+        width: 24px;
+     }
+}
+
+@media(max-width: 900px) {
+   
+    .itemCard {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .tranferTextTwoo {
+        width: 80%;
+    }
+    .infoordertittlename h1 {
+        font-size: 33px;
+    }
+   
+}
+
+@media(max-width: 700px) {
+    
+    .priceCarButton {
+        margin-top: -10px;
+    }
+    .name {
+        font-size: 16px;
+    }
+    .ipeople, .imanual, .ifuel {
+            font-size: 11px;
+    }
+    .blockinfobox img {
+        width: 15px;
+    }
+    .downimginfo  {
+        font-size: 13px;
+     }
+     .downimginfo img {
+        width: 18px;
+     }
+     .infoordertittlename h1 {
+        font-size:36px;
+        margin-left: 4%;
+        
+    }
+    
+    .infoordercarimg  {
+        width: 70%;
+        margin: auto;
+        float: none;
+        margin-top: -40px;
+    }
+    .infoordertittlename {
+        
+        width: 90%;
+        margin: auto; 
+          float: none;
+          margin-top: 30px;
+          
+    }
+    .info {
+        float: none;
+        clear: both;
+        margin-top: 200px;
+        width: 90%;
+        margin-left: 1%;
+    }
+    .forminfo{
+        float: none;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+}

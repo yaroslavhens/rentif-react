@@ -1,0 +1,32 @@
+.CarheadConteiner {
+    
+    width: 100%;
+    height: auto;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.CarImgConteiner {
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    
+}
+.CarImgConteiner img  {
+    margin-top: 50px;
+    width: 50%;
+ 
+}
+.CarheadConteiner h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+.SortCar {
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
